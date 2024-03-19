@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-sector {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: red;
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    height: auto
+}
+
+.right {
+    list-style: none;
+    display: flex;
+    direction: row;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.button1 {
+    width: 400px;
+    height: 20px;
+    text-align: left;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: gray;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    position: fixed;
+    height: 100%;
+    padding-right: 20px;
+}

@@ -14,7 +14,7 @@ html, body {
     direction: row;
     justify-content: space-between;
     margin: 0px;
-    height: auto
+    height: auto;
 }
 
 .right {
@@ -46,5 +46,5 @@ html, body {
     background-color: blue;
     position: fixed;
     height: 100%;
-    padding-right: 20px;
+    width: 23%
 }

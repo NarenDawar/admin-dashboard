@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ECECEC;
 }
-
  #topbar {
-        background-color: #333;
+        background-color: white;
         color: #fff;
         padding: 10px;
         text-align: center;
@@ -15,7 +15,7 @@ body {
     }
 
     #sidebar {
-        background-color: #f4f4f4;
+        background-color: #039BE5;
         width: 300px;
         height: 100vh;
         float: left;
@@ -26,6 +26,7 @@ body {
         text-align: center;
         font-size: 30px;
         padding-top: 10px;
+        color: white;
     }
 
     #content {
@@ -42,10 +43,11 @@ body {
     }
 
     .grid-item {
-        background-color: #ddd;
+        background-color: white;
         padding: 20px;
         text-align: center;
-        border: 0px solid black;
+        border-top: 0px solid black;
+        border-left: 5px solid yellow;
         border-radius: 8px;
     }
 
@@ -77,6 +79,7 @@ body {
         padding-bottom: 10px;
         text-align: left;
         padding-left: 70px;
+        color: white;
     }
 
     #sidebar-options {
@@ -94,12 +97,13 @@ body {
         padding-bottom: 10px;
         text-align: left;
         padding-left: 70px;
+        color: white;
     }
 
     .button1 {
         display: inline-block;
         width: 300px;
-        border: 1px solid gray;
+        border: 0px solid gray;
         text-align: left;
         color: gray;
         border-radius: 15px;
@@ -111,4 +115,5 @@ body {
     .name {
         display: inline-block;
         margin-left: 200px;
+        color: black;
     }

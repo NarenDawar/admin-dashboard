@@ -37,8 +37,8 @@ body {
 
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(2, 245px);
-        grid-template-rows: repeat(3, 170px); /* Adjust as needed */
+        grid-template-columns: repeat(2, 270px);
+        grid-template-rows: repeat(3, 160px); /* Adjust as needed */
         grid-gap: 50px 30px;
     }
 
@@ -47,29 +47,38 @@ body {
         padding: 20px;
         text-align: center;
         border-top: 0px solid black;
-        border-left: 5px solid yellow;
-        border-radius: 8px;
+        border-left: 5px solid orange;
+        border-radius: 10px;
+        box-shadow: 0px 3px 3px lightgray;
     }
 
     .content2 {
-        background-color: red;
+        background-color: white;
         position: absolute;
-        width: 200px;
-        height: 35%;
+        width: 180px;
+        height: 30%;
         top: 0;
         right: 0;
-        margin-top: 100px;
+        margin-top: 80px;
         margin-right: 50px;
+        border: 0px black solid;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0px 3px 3px lightgray;
     }
     .content3 {
-        background-color: blue;
+        background-color: white;
         position: absolute;
-        width: 200px;
-        height: 35%;
+        width: 180px;
+        height: 30%;
         top: 0;
         right: 0;
-        margin-top: 400px;
+        margin-top: 402px;
         margin-right: 50px;
+        border: 0px black solid;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0px 3px 3px lightgray;
     }
 
     .sidebar-option {
@@ -116,4 +125,18 @@ body {
         display: inline-block;
         margin-left: 200px;
         color: black;
+    }
+
+    .activity {
+        margin-left: 321px;
+        margin-top: 8px;
+        margin-bottom: -8px;
+    }
+
+    .announce {
+        position: absolute;
+        top:0;
+        right: 0;
+        margin-top: 57px;
+        margin-right: 160px;
     }

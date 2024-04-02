@@ -12,11 +12,12 @@ body {
         z-index: 2; /* Ensure the top bar appears above the sidebar */
         display: block;
         box-shadow: 0px 5px 5px lightgray;
+        margin-left: 260px;
     }
 
     #sidebar {
         background-color: #039BE5;
-        width: 300px;
+        width: 260px;
         height: 100vh;
         float: left;
         position: absolute;
@@ -119,7 +120,7 @@ body {
         border-radius: 15px;
         height: 25px;
         margin-right: 310px;
-        margin-left: 270px;
+        margin-left: -70px;
     }
 
     .name {
@@ -140,4 +141,17 @@ body {
         right: 0;
         margin-top: 57px;
         margin-right: 160px;
+    }
+
+    .trending {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 380px;
+        margin-right: 217px;
+    }
+
+    .welcome-left {
+        left: 0;
+        margin-left: 320px;
     }

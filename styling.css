@@ -37,7 +37,7 @@ body {
 
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(2, 250px);
+        grid-template-columns: repeat(2, 290px);
         grid-template-rows: repeat(3, 150px); /* Adjust as needed */
         grid-gap: 50px 30px;
     }
@@ -54,7 +54,7 @@ body {
 
     .content2 {
         background-color: white;
-        font-size: 11px;
+        font-size: 12px;
         position: absolute;
         width: 180px;
         height: 28%;

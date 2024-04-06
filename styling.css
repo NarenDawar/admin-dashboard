@@ -17,7 +17,7 @@ body {
     #sidebar {
         background-color: #039BE5;
         width: 260px;
-        height: 100vh;
+        height: 100%;
         float: left;
         position: absolute;
         top: 0;
@@ -31,14 +31,14 @@ body {
 
     #content {
          /* Width of the sidebar */
-        margin-left: 300px;
+        margin-left: 270px;
         padding: 20px;
     }
 
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(2, 270px);
-        grid-template-rows: repeat(3, 160px); /* Adjust as needed */
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: repeat(3, 150px); /* Adjust as needed */
         grid-gap: 50px 30px;
     }
 
@@ -54,13 +54,13 @@ body {
 
     .content2 {
         background-color: white;
-        font-size: 13px;
+        font-size: 11px;
         position: absolute;
         width: 180px;
-        height: 30%;
+        height: 28%;
         top: 0;
         right: 0;
-        margin-top: 80px;
+        margin-top: 140px;
         margin-right: 50px;
         border: 0px black solid;
         border-radius: 10px;
@@ -71,10 +71,10 @@ body {
         background-color: white;
         position: absolute;
         width: 180px;
-        height: 30%;
+        height: 28%;
         top: 0;
         right: 0;
-        margin-top: 402px;
+        margin-top: 435px;
         margin-right: 50px;
         border: 0px black solid;
         border-radius: 10px;
@@ -129,28 +129,70 @@ body {
     }
 
     .activity {
-        margin-left: 321px;
-        margin-top: 8px;
+        margin-left: 295px;
+        margin-top: 9px;
         margin-bottom: -8px;
+        font-weight: bold;
     }
 
     .announce {
         position: absolute;
         top:0;
         right: 0;
-        margin-top: 57px;
-        margin-right: 160px;
+        margin-top: 115px;
+        margin-right: 151px;
+        font-weight: bold;
     }
 
     .trending {
         position: absolute;
         right: 0;
         top: 0;
-        margin-top: 380px;
-        margin-right: 217px;
+        margin-top: 410px;
+        margin-right: 211px;
+        font-weight: bold;
     }
 
     .welcome-left {
-        margin-left: 600px;
+        position: absolute;
+        left: 0;
+        margin-left: 350px;
         color: black;
+        text-align: left;
+        margin-top: 5px;
     }
+
+    .welcome-left::first-line {
+        font-size: 13px;
+    }
+
+    .right-buttons {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 970px;
+        border: 0px solid black;
+        border-radius: 10px;
+
+    }
+
+    .buttonr1, .buttonr2, .buttonr3{
+        border: 0px solid black;
+        border-radius: 25px;
+        height: 30px;
+        width: 75px;
+        background-color: #039BE5;
+        color: white;
+        font-size: 12px;
+        font-weight:bold;
+    }
+
+    .picture {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 130px;
+        margin-top: 7px;
+        border: 0px solid red;
+        border-radius: 50%;
+    }
+

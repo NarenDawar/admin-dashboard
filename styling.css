@@ -118,13 +118,13 @@ body {
         color: gray;
         border-radius: 15px;
         height: 25px;
-        margin-right: 310px;
-        margin-left: 190px;
+        margin-right: 270px;
+        margin-left: 220px;
     }
 
     .name {
         display: inline-block;
-        margin-left: 200px;
+        margin-left: 270px;
         color: black;
     }
 
